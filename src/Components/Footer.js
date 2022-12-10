@@ -1,5 +1,5 @@
 import React from "react";
-import tlogo from "../tcss.png";
+import tailwindLogo from "./imgs/tailwindLogo.png";
 
 export default function Footer() {
   return (
@@ -11,9 +11,12 @@ export default function Footer() {
               <li>
                 Made With &#9829; By Jay Prajapati Using{" "}
                 <i className="fa-brands fa-react"></i>&nbsp; & &nbsp;
-                <img src={tlogo} className="w-[4.5%] align-top inline" alt="" />
+                <img
+                  src={tailwindLogo}
+                  className="w-[4.5%] align-top inline"
+                  alt=""
+                />
               </li>
-              <div></div>
             </ul>
           </div>
           <ul className="flex flex-wrap pl-3 space-x-4 sm:space-x-8">
@@ -22,6 +25,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 target="_blank"
                 href="https://github.com/jayyprajapati"
+                aria-label="Github Profile Link"
               >
                 <i className="fa-brands fa-github"></i>
               </a>
@@ -30,6 +34,7 @@ export default function Footer() {
               <a
                 rel="noopener noreferrer"
                 target="_blank"
+                aria-label="LinkedIn Profile Link"
                 href="https://www.linkedin.com/in/jay-prajapati-614180191/"
               >
                 <i className="fa-brands fa-linkedin"></i>
@@ -39,6 +44,7 @@ export default function Footer() {
               <a
                 rel="noopener noreferrer"
                 target="_blank"
+                aria-label="Instagram Profile Link"
                 href="https://www.instagram.com/jayy.prajapati/"
               >
                 <i className="fa-brands fa-instagram"></i>

@@ -1,5 +1,3 @@
-// import logo from './logo.svg';
-import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import News from "./Components/News";
@@ -105,7 +103,7 @@ function App() {
           />
         </Routes>
       </Router>
-      <LoadingBar color="#2192FF" progress={progress} />
+      <LoadingBar color="#59CE8F" progress={progress} />
       <Footer />
     </>
   );

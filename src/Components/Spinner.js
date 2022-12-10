@@ -1,9 +1,13 @@
 import React from "react";
-import loading from "./loading.gif";
+import loading from "./imgs/loading.gif";
 export default function Spinner() {
   return (
     <div>
-      <img src={loading} className="object-center mx-auto my-10" alt="" />
+      <img
+        src={loading}
+        className="object-center mx-auto mb-96 object-contain my-10"
+        alt=""
+      />
     </div>
   );
 }
